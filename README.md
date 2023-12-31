@@ -30,4 +30,6 @@ The goal is to explore and analyze the music store database to uncover key insig
 
 - *Market Analysis:* Determining the top-selling tracks and artists by country enables tailored market strategies and localization efforts.
 
+![MusicDatabaseSchema](https://github.com/pavankumarchavan1/Music_store_database/assets/46195475/242e08a7-6b3b-44e7-8e8d-2025906e90a1)
+
 In essence, this SQL project leverages the music store database to provide valuable insights across various dimensions, including sales, customer behavior, and market dynamics. These insights empower stakeholders to make informed decisions that drive business growth and customer satisfaction in the music retail industry.
