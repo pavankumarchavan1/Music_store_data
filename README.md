@@ -1,4 +1,4 @@
-# Music_store_database
+# Music_store_data
 
 Welcome to the SQL project, which revolves around an extensive music store database. This database houses crucial information about artists, albums, genres, customers, employees, invoices, media types, playlists, and tracks. The primary objective of this project is to utilize SQL to extract actionable insights that can inform strategic decision-making within the music retail industry. By addressing specific queries, we aim to offer a comprehensive view of the database, unveiling patterns and trends that can drive business growth.
 
