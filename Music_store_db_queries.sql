@@ -49,9 +49,9 @@ LIMIT 1;
 
 SELECT DISTINCT(c.email), c.first_name, c.last_name
 FROM customer c
-     JOIN invoice i 
+JOIN invoice i 
 		ON c.customer_id = i.customer_id
-	JOIN invoice_line iline 
+JOIN invoice_line iline 
 		ON i.invoice_id = iline.invoice_id
 WHERE track_id IN (SELECT track_id
                    FROM track2 t
