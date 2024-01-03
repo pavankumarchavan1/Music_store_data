@@ -43,7 +43,7 @@ ORDER BY  Total_money_spent DESC
 LIMIT 1;
 
 
--- Intermediate --
+
 -- 6. Write a query to return the email, first name & last name of all Rock music listeners. Return your list ordered
 -- alphabetically by email starting with A.
 
@@ -54,7 +54,7 @@ FROM customer c
 	JOIN invoice_line iline 
 		ON i.invoice_id = iline.invoice_id
 WHERE track_id IN (SELECT track_id
-				   FROM track2 t
+                   FROM track2 t
                    JOIN genre g 
                    ON t.genre_id = g.genre_id
                    WHERE g.name LIKE '%RocK%')
@@ -102,7 +102,8 @@ WHERE milliseconds > (SELECT AVG(milliseconds)
 ORDER BY milliseconds DESC;
 
 
--- Advanced --
+
+
 -- 9 Find how much amount spent by each customer on artists? Write a query to return customer name, artist name & total spent.
 
 WITH best_selling_artist AS (
